@@ -1,0 +1,83 @@
+/* Reset basic styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdf6;
+  color: #333;
+}
+
+header {
+  background-color: #4a2c2a;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav button {
+  padding: 0.5rem 1.2rem;
+  background-color: #f8c471;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #4a2c2a;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #f5b041;
+}
+
+#content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fffefa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #4a2c2a;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #7d3c3c;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul > li {
+  margin-bottom: 1rem;
+}
+
+ul ul li {
+  margin-left: 1rem;
+  font-style: italic;
+  color: #5e5e5e;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
